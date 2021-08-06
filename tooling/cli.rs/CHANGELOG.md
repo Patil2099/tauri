@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-beta.6]
+
+- Merge platform-specific `tauri.linux.conf.json`, `tauri.windows.conf.json` and `tauri.macos.conf.json` into the config JSON from `tauri.conf.json`.
+  - [71d687b7](https://www.github.com/tauri-apps/tauri/commit/71d687b787cd722c60879adda543897826bf42c9) feat(cli.rs): platform-specific conf.json ([#2309](https://www.github.com/tauri-apps/tauri/pull/2309)) on 2021-07-28
+
 ## \[1.0.0-beta.5]
 
 - Run powershell commands with `-NoProfile` flag
